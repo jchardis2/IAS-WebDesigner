@@ -17,7 +17,7 @@ public class WebDesignerMain {
 		ContextHandlerCollection contexts = iasServer.configure();
 		iasServer.fullWebAppDeployment(contexts);
 		iasServer.start();
-		iasServer.join();
+		iasServer.join(); 
 	}
 
 	public static void testProperties() throws IOException {
